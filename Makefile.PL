@@ -5,7 +5,6 @@ WriteMakefile('NAME'         => 'Business::OnlinePayment::iAuthorizer',
               'VERSION_FROM' => 'iAuthorizer.pm', # finds $VERSION
               'AUTHOR'       => 'Daniel Brooks <db48x@yahoo.com>', 
               'PREREQ_PM'    => {'Net::SSLeay' => 1,
-                                 'Text::CSV_XS' => 1,
                                  'Business::OnlinePayment' => 1,
                                 },
              );
